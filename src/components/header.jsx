@@ -31,7 +31,10 @@ const Header = ({ parallaxRef }) => {
           <div className="projects-title" onClick={() => scrollToSection(3)}>
             Lovely place
           </div>
-          <div className="projects-title" onClick={() => scrollToSection(4)}>
+          <div
+            className="projects-title projects-title-under"
+            onClick={() => scrollToSection(4)}
+          >
             Yeni
           </div>
         </div>
