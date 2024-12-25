@@ -748,7 +748,7 @@ header {
   }
 
   .describe {
-    font-size: 1.5em;
+    font-size: 3.7vh;
     line-height: 1.5;
   }
 
@@ -768,7 +768,10 @@ header {
     display: none;
   }
   .title-box {
-    padding: 130px 0px 25px 0px;
+    padding: 10vh 0px 25px 0px;
+  }
+  .title-box h1 {
+    font-size: 7vh;
   }
   .projects-section {
     font-size: 0.88em;
@@ -779,9 +782,9 @@ header {
     margin-bottom: 0px;
   }
   .projects-title {
-    padding: 10px 0px 10px 0px;
+    padding: 1.7vh 0px 1.7vh 0px;
     border-bottom: 1px solid #d5d8de;
-    font-size: 0.8em;
+    font-size: 1.9vh;
     font-weight: 400;
     letter-spacing: 1px;
     cursor: pointer;
@@ -789,5 +792,14 @@ header {
   header {
     height: 90vh;
     justify-content: space-between;
+  }
+
+  .parallax {
+    height: 10%;
+    font-size: 2.7vh;
+    font-weight: 300;
+    padding: 3.6vh 0vh 3.6vh 0vh;
+    display: flex;
+    flex-wrap: nowrap;
   }
 }
