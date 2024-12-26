@@ -23,7 +23,7 @@ const ProjectSliderResponsive = ({ images }) => {
         }}
         autoplay={{
           delay: 3000,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
           pauseOnMouseEnter: true,
         }}
         className="project-slider-responsive"
