@@ -593,6 +593,55 @@ header {
   transition: opacity 0.5s ease;
 }
 
+/* Styles pour le slider responsive */
+.project-slider-responsive-container {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .project-slider-responsive-container {
+    display: block;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+  }
+
+  .project-slider-responsive {
+    height: 100%;
+  }
+
+  .project-slide-responsive {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-media-responsive {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Style de la barre de progression horizontale */
+  .project-slider-responsive .swiper-pagination-progressbar {
+    bottom: 10px !important;
+    top: auto !important;
+    height: 3px !important;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .project-slider-responsive .swiper-pagination-progressbar-fill {
+    background: var(--dark) !important;
+  }
+
+  /* Masquer les boutons de navigation sur mobile */
+  .project-slider-responsive .swiper-button-next,
+  .project-slider-responsive .swiper-button-prev {
+    display: none;
+  }
+}
+
 /* Media Queries */
 @media screen and (max-width: 1024px) {
   h1 {
@@ -805,5 +854,8 @@ header {
     padding: 3.6vh 0vh 3.6vh 0vh;
     display: flex;
     flex-wrap: nowrap;
+  }
+  .project-slider-container {
+    display: none;
   }
 }

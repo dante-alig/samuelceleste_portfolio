@@ -1,5 +1,6 @@
 import FeaturedProject from "./featuredProject";
 import ProjectSlider from "./projectSlider";
+import ProjectSliderResponsive from "./projectSliderResponsive";
 import Image from "../images/macbook.png";
 
 const ProjectOverview = ({
@@ -19,6 +20,7 @@ const ProjectOverview = ({
   link,
   buttonStyle,
   sliderImages,
+  sliderImagesResponsive,
 }) => {
   return (
     <div
@@ -71,6 +73,7 @@ const ProjectOverview = ({
         </div>
       </div>
       <ProjectSlider images={sliderImages} />
+      <ProjectSliderResponsive images={sliderImagesResponsive} />
     </div>
   );
 };
