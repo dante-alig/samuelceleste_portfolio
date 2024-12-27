@@ -143,7 +143,7 @@ const Home = () => {
             ]}
           />
         </ParallaxLayer>
-        <ParallaxLayer offset={3} speed={2}>
+        <ParallaxLayer offset={3.3} speed={3}>
           <ProjectOverview
             pageNumber="04"
             totalPages="05"
