@@ -879,15 +879,16 @@ header {
     justify-content: center;
     gap: 2vh;
     margin-top: 2vh;
+    font-size: 2vh;
   }
   .linkto li {
     border: 1px solid var(--light);
-    border-radius: 15px;
-    width: 150px;
-    height: 30px;
+    border-radius: 10px;
+    width: 65vw;
+    height: 5vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3vh;
+    padding: 2vh;
   }
 }

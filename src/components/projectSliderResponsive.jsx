@@ -4,6 +4,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProjectSliderResponsive = ({ images }) => {
   const isVideo = (src) => {
@@ -54,8 +55,14 @@ const ProjectSliderResponsive = ({ images }) => {
         ))}
       </Swiper>
       <ul className="linkto">
-        <li>Github</li>
-        <li>Website</li>
+        <li>
+          Github
+          <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
+        </li>
+        <li>
+          Website
+          <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
+        </li>
       </ul>
     </div>
   );
