@@ -13,6 +13,7 @@ import mockupLovely2 from "../images/mockup7.png";
 import mokupYeni from "../images/mockup_yeni.png";
 import test from "../images/test.png";
 import test2 from "../images/test2.png";
+import test3 from "../images/test3.png";
 const Home = () => {
   const parallax = useRef(null);
 
@@ -79,10 +80,7 @@ const Home = () => {
               mockupKarine,
               mockupKarine2, // Remplacer par d'autres images
             ]}
-            sliderImagesResponsive={[
-              mockupKarine,
-              mockupKarine2, // Remplacer par d'autres images
-            ]}
+            sliderImagesResponsive={[test3, test3]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
@@ -121,7 +119,7 @@ const Home = () => {
             border="#ea3323"
             bgContainer="black"
             sliderImages={[mockupMarvel, mockupMarvel2]}
-            sliderImagesResponsive={[mockupMarvel, mockupMarvel2]}
+            sliderImagesResponsive={[test, test2]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
@@ -156,7 +154,7 @@ const Home = () => {
             border="black"
             bgContainer="black"
             sliderImages={[mockupLovely, mockupLovely2]}
-            sliderImagesResponsive={[mockupLovely, mockupLovely2]}
+            sliderImagesResponsive={[test, test2]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
@@ -192,7 +190,7 @@ const Home = () => {
             border="white"
             bgContainer="#171616"
             sliderImages={[mokupYeni]}
-            sliderImagesResponsive={[mokupYeni]}
+            sliderImagesResponsive={[test, test2]}
             cssStyle={[
               "featured-container",
               "featured-mokup",

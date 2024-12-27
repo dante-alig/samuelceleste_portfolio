@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 const ProjectSliderResponsive = ({ images }) => {
   const isVideo = (src) => {
-    return typeof src === 'string' && src.toLowerCase().endsWith('.mp4');
+    return typeof src === "string" && src.toLowerCase().endsWith(".mp4");
   };
 
   return (
@@ -17,12 +17,12 @@ const ProjectSliderResponsive = ({ images }) => {
         spaceBetween={30}
         slidesPerView={1}
         navigation
-        pagination={{ 
+        pagination={{
           clickable: true,
-          type: "progressbar"
+          type: "progressbar",
         }}
         autoplay={{
-          delay: 3000,
+          delay: 6000,
           disableOnInteraction: true,
           pauseOnMouseEnter: true,
         }}
@@ -43,8 +43,8 @@ const ProjectSliderResponsive = ({ images }) => {
                   Your browser does not support the video tag.
                 </video>
               ) : (
-                <img 
-                  src={src} 
+                <img
+                  src={src}
                   alt={`Project view ${index + 1}`}
                   className="project-media-responsive"
                 />
