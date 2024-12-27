@@ -72,8 +72,8 @@ const ProjectOverview = ({
           </div>
         </div>
       </div>
-      <ProjectSlider images={sliderImages} />
-      <ProjectSliderResponsive images={sliderImagesResponsive} />
+      <ProjectSlider images={sliderImages} link={link} />
+      <ProjectSliderResponsive images={sliderImagesResponsive} link={link} />
     </div>
   );
 };
