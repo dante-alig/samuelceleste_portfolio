@@ -859,7 +859,7 @@ header {
     display: none;
   }
   .drawer {
-    padding: 0.5vh;
+    padding: 1vh;
     font-size: 2vh;
   }
 
@@ -869,8 +869,9 @@ header {
   }
   .drawer-about {
     width: 100vw;
+    padding-right: 5vh;
   }
   .drawer-content p {
-    width: 60vw;
+    width: 80vw;
   }
 }
