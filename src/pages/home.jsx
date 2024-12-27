@@ -11,9 +11,12 @@ import mockupMarvel2 from "../images/mockup4.mp4";
 import mockupLovely from "../images/mockup6.png";
 import mockupLovely2 from "../images/mockup7.png";
 import mokupYeni from "../images/mockup_yeni.png";
-import test from "../images/test.png";
-import test2 from "../images/test2.png";
-import test3 from "../images/test3.png";
+import test from "../images/responsive/belami1.png";
+import test2 from "../images/responsive/belami2.png";
+import test3 from "../images/responsive/belami3.png";
+import test4 from "../images/responsive/belami4.png";
+import test5 from "../images/responsive/belami5.png";
+
 const Home = () => {
   const parallax = useRef(null);
 
@@ -41,7 +44,7 @@ const Home = () => {
               mockupBelami,
               mockupBelami2, // Remplacer par d'autres images
             ]}
-            sliderImagesResponsive={[test, test2]}
+            sliderImagesResponsive={[test, test2, test3, test4, test5]}
             cssStyle={[
               "featured-container",
               "featured-mokup",
