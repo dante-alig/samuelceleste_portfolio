@@ -860,7 +860,7 @@ header {
   }
   .drawer {
     padding: 1vh;
-    font-size: 2vh;
+    font-size: 3vh;
   }
 
   .drawer-profile-img {
@@ -869,7 +869,6 @@ header {
   }
   .drawer-about {
     width: 100vw;
-    padding-right: 5vh;
   }
   .drawer-content p {
     width: 80vw;
