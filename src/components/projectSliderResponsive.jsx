@@ -53,6 +53,10 @@ const ProjectSliderResponsive = ({ images }) => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <ul className="linkto">
+        <li>Github</li>
+        <li>Website</li>
+      </ul>
     </div>
   );
 };
