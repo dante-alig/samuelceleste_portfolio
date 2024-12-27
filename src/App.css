@@ -859,8 +859,8 @@ header {
     display: none;
   }
   .drawer {
-    padding: 1vh;
-    font-size: 1.5vh;
+    padding: 0.5vh;
+    font-size: 2vh;
   }
 
   .drawer-profile-img {
@@ -868,7 +868,7 @@ header {
     height: 100px;
   }
   .drawer-about {
-    width: 50vw;
+    width: 100vw;
   }
   .drawer-content p {
     width: 60vw;
