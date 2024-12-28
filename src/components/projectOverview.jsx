@@ -73,7 +73,11 @@ const ProjectOverview = ({
         </div>
       </div>
       <ProjectSlider images={sliderImages} link={link} />
-      <ProjectSliderResponsive images={sliderImagesResponsive} link={link} />
+      <ProjectSliderResponsive
+        images={sliderImagesResponsive}
+        link={link}
+        txtColor={txtColor}
+      />
     </div>
   );
 };

@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
-const ProjectSliderResponsive = ({ images, link }) => {
+const ProjectSliderResponsive = ({ images, link, txtColor }) => {
   const isVideo = (src) => {
     return typeof src === "string" && src.toLowerCase().endsWith(".mp4");
   };
@@ -59,8 +59,8 @@ const ProjectSliderResponsive = ({ images, link }) => {
         {link.map((objet, index) => {
           return (
             <ul key={index} className="linkto">
-              <li>
-                <Link to={objet.url} target="_blank" rel="noopener noreferrer">
+              <li style={{ border: `1px solid ${txtColor}` }}>
+                <Link to={objet.url} style={{ color: txtColor }} target="_blank" rel="noopener noreferrer">
                   {objet.title}
                   <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
                 </Link>

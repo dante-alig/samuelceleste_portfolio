@@ -900,4 +900,14 @@ header {
     color: var(--light);
     text-decoration: none;
   }
+  .title-box {
+    padding: 10vh 3vh 5vh 3vh;
+    text-align: start;
+  }
+  .title-container-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }

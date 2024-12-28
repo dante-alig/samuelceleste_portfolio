@@ -16,6 +16,10 @@ import test2 from "../images/responsive/belami2.png";
 import test3 from "../images/responsive/belami3.png";
 import test4 from "../images/responsive/belami4.png";
 import test5 from "../images/responsive/belami5.png";
+import karine1 from "../images/responsive/karine1.png";
+import marvel1 from "../images/responsive/marvel1.png";
+import lovely1 from "../images/responsive/lovely1.png";
+import yeni1 from "../images/responsive/yeni1.png";
 
 const Home = () => {
   const parallax = useRef(null);
@@ -83,7 +87,7 @@ const Home = () => {
               mockupKarine,
               mockupKarine2, // Remplacer par d'autres images
             ]}
-            sliderImagesResponsive={[test3, test3]}
+            sliderImagesResponsive={[karine1]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
@@ -122,7 +126,7 @@ const Home = () => {
             border="#ea3323"
             bgContainer="black"
             sliderImages={[mockupMarvel, mockupMarvel2]}
-            sliderImagesResponsive={[test, test2]}
+            sliderImagesResponsive={[marvel1]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
@@ -157,7 +161,7 @@ const Home = () => {
             border="black"
             bgContainer="black"
             sliderImages={[mockupLovely, mockupLovely2]}
-            sliderImagesResponsive={[test, test2]}
+            sliderImagesResponsive={[lovely1]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
@@ -193,7 +197,7 @@ const Home = () => {
             border="white"
             bgContainer="#171616"
             sliderImages={[mokupYeni]}
-            sliderImagesResponsive={[test, test2]}
+            sliderImagesResponsive={[yeni1]}
             cssStyle={[
               "featured-container",
               "featured-mokup",
@@ -218,7 +222,7 @@ const Home = () => {
         <ParallaxLayer offset={4.999} speed={0}>
           <div className="about">
             <div className="about-container">
-              <div className="title-container">
+              <div className="title-container-bottom">
                 <div className="title-box">
                   <h1>Nice to meet you,</h1>
                   <h1> Let’s connect.</h1>
