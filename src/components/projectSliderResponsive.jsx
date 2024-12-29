@@ -60,7 +60,12 @@ const ProjectSliderResponsive = ({ images, link, txtColor }) => {
           return (
             <ul key={index} className="linkto">
               <li style={{ border: `1px solid ${txtColor}` }}>
-                <Link to={objet.url} style={{ color: txtColor }} target="_blank" rel="noopener noreferrer">
+                <Link
+                  to={objet.url}
+                  style={{ color: txtColor }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {objet.title}
                   <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
                 </Link>

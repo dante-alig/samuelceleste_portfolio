@@ -72,7 +72,7 @@ const ProjectOverview = ({
           </div>
         </div>
       </div>
-      <ProjectSlider images={sliderImages} link={link} />
+      <ProjectSlider images={sliderImages} link={link} txtColor={txtColor} />
       <ProjectSliderResponsive
         images={sliderImagesResponsive}
         link={link}

@@ -39,10 +39,13 @@ const Drawer = ({ isOpen, onClose }) => {
                   <h2>About Me</h2>
                 </div>
                 <p>
-                  Designer & Full Stack Developer based in Paris, I craft
-                  innovative digital solutions that blend aesthetics and
-                  performance. With a passion for both design and development, I
-                  create seamless user experiences that make an impact.
+                  I am a passionate graphic designer with 9 years of experience,
+                  now transitioning into full-stack development. My portfolio
+                  features personal projects I’ve fully designed and coded,
+                  combining my design expertise with new technical skills.
+                  Despite being a junior developer, my unique background and
+                  professional experience make me a valuable asset for your
+                  projects.
                 </p>
               </div>
 

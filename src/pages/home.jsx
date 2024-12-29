@@ -3,14 +3,16 @@ import React, { useRef } from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import ProjectOverview from "../components/projectOverview";
 import mockupBelami from "../images/mockup.jpg";
-import mockupBelami2 from "../images/belami_slide1.mp4";
-import mockupKarine from "../images/raspail_karine.mp4";
+import mockupBelami2 from "../images/Key Features.mp4";
+import mockupBelami3 from "../images/belami2.png";
+import mockupKarine from "../images/kk3.png";
 import mockupKarine2 from "../images/kk3.mp4";
 import mockupMarvel from "../images/ipad2.png";
 import mockupMarvel2 from "../images/mockup4.mp4";
 import mockupLovely from "../images/mockup6.png";
 import mockupLovely2 from "../images/mockup7.png";
 import mokupYeni from "../images/mockup_yeni.png";
+import mokupYeni2 from "../images/mockupyeni1.png";
 import test from "../images/responsive/belami1.png";
 import test2 from "../images/responsive/belami2.png";
 import test3 from "../images/responsive/belami3.png";
@@ -20,6 +22,8 @@ import karine1 from "../images/responsive/karine1.png";
 import marvel1 from "../images/responsive/marvel1.png";
 import lovely1 from "../images/responsive/lovely1.png";
 import yeni1 from "../images/responsive/yeni1.png";
+import marvelm1 from "../images/mockupmarvel1.png";
+import lovely from "../images/mockuplovely.png";
 
 const Home = () => {
   const parallax = useRef(null);
@@ -37,16 +41,18 @@ const Home = () => {
             totalPages="05"
             titlePresentation="Belami - AI generated creative opening messages."
             title="Belami"
-            date="November 2024 - in progress"
+            date="October 2024 - in progress"
             techno={["React Nativ", "Figma", "Open AI", "Backend"]}
-            roles={["Ux Ui Design", "Dev front & back"]}
+            roles={["Ui Design", "Dev front & back"]}
             bgColor="black"
             border="white"
             bgContainer="#f5e6c7"
             // Images pour le slider (vous pouvez les remplacer par vos propres images)
             sliderImages={[
+              mockupBelami3,
+              mockupBelami2,
               mockupBelami,
-              mockupBelami2, // Remplacer par d'autres images
+              // Remplacer par d'autres images
             ]}
             sliderImagesResponsive={[test, test2, test3, test4, test5]}
             cssStyle={[
@@ -65,7 +71,10 @@ const Home = () => {
                 url: "https://www.figma.com/design/sOXpTDyout0PXphyu70Paa/Belami?node-id=0-1&t=l1V4DIsDR2gYxShT-1",
                 title: "Figma",
               },
-              { url: "https://github.com/", title: "Github" },
+              {
+                url: "https://github.com/dante-alig/belami_0.1.git",
+                title: "Github",
+              },
             ]}
           />
         </ParallaxLayer>
@@ -125,7 +134,7 @@ const Home = () => {
             txtColor="#ea3323"
             border="#ea3323"
             bgContainer="black"
-            sliderImages={[mockupMarvel, mockupMarvel2]}
+            sliderImages={[marvelm1, mockupMarvel2]}
             sliderImagesResponsive={[marvel1]}
             cssStyle={[
               "featured-container-tab0",
@@ -160,7 +169,7 @@ const Home = () => {
             txtColor="black"
             border="black"
             bgContainer="black"
-            sliderImages={[mockupLovely, mockupLovely2]}
+            sliderImages={[lovely, mockupLovely2]}
             sliderImagesResponsive={[lovely1]}
             cssStyle={[
               "featured-container-tab0",
@@ -196,7 +205,7 @@ const Home = () => {
             bgColor="black"
             border="white"
             bgContainer="#171616"
-            sliderImages={[mokupYeni]}
+            sliderImages={[mokupYeni2, mokupYeni]}
             sliderImagesResponsive={[yeni1]}
             cssStyle={[
               "featured-container",
