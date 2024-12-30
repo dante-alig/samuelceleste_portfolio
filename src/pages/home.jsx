@@ -13,17 +13,18 @@ import mockupLovely from "../images/mockup6.png";
 import mockupLovely2 from "../images/mockup7.png";
 import mokupYeni from "../images/mockup_yeni.png";
 import mokupYeni2 from "../images/mockupyeni1.png";
-import test from "../images/responsive/belami1.png";
-import test2 from "../images/responsive/belami2.png";
-import test3 from "../images/responsive/belami3.png";
-import test4 from "../images/responsive/belami4.png";
-import test5 from "../images/responsive/belami5.png";
-import karine1 from "../images/responsive/karine1.png";
-import marvel1 from "../images/responsive/marvel1.png";
-import lovely1 from "../images/responsive/lovely1.png";
-import yeni1 from "../images/responsive/yeni1.png";
 import marvelm1 from "../images/mockupmarvel1.png";
 import lovely from "../images/mockuplovely.png";
+import mockupBelamiResponsiveInfos from "../images/responsive/belami.png";
+import mockupBelamiResponsive from "../images/responsive/belami1.png";
+import mockupBelamiResponsive2 from "../images/responsive/belami2.png";
+import mockupBelamiResponsive3 from "../images/responsive/belami3.png";
+import mockupBelamiResponsive4 from "../images/responsive/belami4.png";
+import mockupBelamiResponsive5 from "../images/responsive/belami5.png";
+import mockupKarineResponsive from "../images/responsive/karine1.png";
+import mockupMarvelResponsive from "../images/responsive/marvel1.png";
+import mockupLovelyResponsive from "../images/responsive/lovely1.png";
+import mockupYeniResponsive from "../images/responsive/yeni1.png";
 
 const Home = () => {
   const parallax = useRef(null);
@@ -54,7 +55,14 @@ const Home = () => {
               mockupBelami,
               // Remplacer par d'autres images
             ]}
-            sliderImagesResponsive={[test, test2, test3, test4, test5]}
+            sliderImagesResponsive={[
+              mockupBelamiResponsiveInfos,
+              mockupBelamiResponsive,
+              mockupBelamiResponsive2,
+              mockupBelamiResponsive3,
+              mockupBelamiResponsive4,
+              mockupBelamiResponsive5,
+            ]}
             cssStyle={[
               "featured-container",
               "featured-mokup",
@@ -96,7 +104,7 @@ const Home = () => {
               mockupKarine,
               mockupKarine2, // Remplacer par d'autres images
             ]}
-            sliderImagesResponsive={[karine1]}
+            sliderImagesResponsive={[mockupKarineResponsive]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
@@ -135,7 +143,7 @@ const Home = () => {
             border="#ea3323"
             bgContainer="black"
             sliderImages={[marvelm1, mockupMarvel2]}
-            sliderImagesResponsive={[marvel1]}
+            sliderImagesResponsive={[mockupMarvelResponsive]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
@@ -170,7 +178,7 @@ const Home = () => {
             border="black"
             bgContainer="black"
             sliderImages={[lovely, mockupLovely2]}
-            sliderImagesResponsive={[lovely1]}
+            sliderImagesResponsive={[mockupLovelyResponsive]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
@@ -206,7 +214,7 @@ const Home = () => {
             border="white"
             bgContainer="#171616"
             sliderImages={[mokupYeni2, mokupYeni]}
-            sliderImagesResponsive={[yeni1]}
+            sliderImagesResponsive={[mockupYeniResponsive]}
             cssStyle={[
               "featured-container",
               "featured-mokup",
