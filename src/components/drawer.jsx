@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import profil from "../images/profil.jpg";
+import profil from "../images/profil.png";
 
 const Drawer = ({ isOpen, onClose }) => {
   return (
@@ -41,7 +41,7 @@ const Drawer = ({ isOpen, onClose }) => {
                 <p>
                   I am a passionate graphic designer with 9 years of experience,
                   now transitioning into full-stack development. My portfolio
-                  features personal projects I’ve fully designed and coded,
+                  features personal projects I've fully designed and coded,
                   combining my design expertise with new technical skills.
                   Despite being a junior developer, my unique background and
                   professional experience make me a valuable asset for your
@@ -51,9 +51,8 @@ const Drawer = ({ isOpen, onClose }) => {
 
               <div className="drawer-contact">
                 <h3>Contact</h3>
-                <p>Email: your.email@example.com</p>
+                <p>Email: samuel.celeste@gmail.com</p>
                 <p>LinkedIn: linkedin.com/in/yourprofile</p>
-                <p>GitHub: github.com/yourusername</p>
               </div>
             </div>
           </motion.div>

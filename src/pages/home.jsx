@@ -2,9 +2,9 @@ import Header from "../components/header";
 import React, { useRef } from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import ProjectOverview from "../components/projectOverview";
-import mockupBelami from "../images/mockup.jpg";
-import mockupBelami2 from "../images/Key Features.mp4";
-import mockupBelami3 from "../images/belami2.png";
+import mockupBelami from "../images/mockupbelami.png";
+import mockupBelami2 from "../images/mockupbelami1.mp4";
+import mockupBelami3 from "../images/mockupbelami3.png";
 import mockupKarine from "../images/kk3.png";
 import mockupKarine2 from "../images/kk3.mp4";
 import mockupMarvel from "../images/ipad2.png";
@@ -50,9 +50,10 @@ const Home = () => {
             bgContainer="#f5e6c7"
             // Images pour le slider (vous pouvez les remplacer par vos propres images)
             sliderImages={[
-              mockupBelami3,
-              mockupBelami2,
               mockupBelami,
+              mockupBelami2,
+              mockupBelami3,
+
               // Remplacer par d'autres images
             ]}
             sliderImagesResponsive={[
