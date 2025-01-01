@@ -5,10 +5,11 @@ import ProjectOverview from "../components/projectOverview";
 import mockupBelami from "../images/mockupbelami.png";
 import mockupBelami2 from "../images/mockupbelami1.mp4";
 import mockupBelami3 from "../images/mockupbelami3.png";
-import mockupKarine from "../images/kk3.png";
-import mockupKarine2 from "../images/kk3.mp4";
+import mockupKarine from "../images/mockupkarine.png";
+import mockupKarine1 from "../images/mockupkarine.png";
+import mockupKarine2 from "../images/mockupkarine2.mp4";
 import mockupMarvel from "../images/ipad2.png";
-import mockupMarvel2 from "../images/mockup4.mp4";
+import mockupMarvel2 from "../images/mockupmarvel2.mp4";
 import mockupLovely from "../images/mockup6.png";
 import mockupLovely2 from "../images/mockup7.png";
 import mokupYeni from "../images/mockup_yeni.png";
@@ -95,16 +96,13 @@ const Home = () => {
             titlePresentation="Karine Raspail - Therapist in psychogenealogy"
             title="Karine Raspail"
             date="September 2024 - in progress"
-            techno={["React", "responsive", "Typescript"]}
-            roles={["Ux Ui Design", "Dev front"]}
+            techno={["React", "responsive", "Typescript", "Frame Motion"]}
+            roles={["Ui Design", "Dev front"]}
             bgColor="#E1EAE9"
             txtColor="black"
             border="black"
             bgContainer="#ffffff"
-            sliderImages={[
-              mockupKarine,
-              mockupKarine2, // Remplacer par d'autres images
-            ]}
+            sliderImages={[mockupKarine1, mockupKarine2]}
             sliderImagesResponsive={[mockupKarineResponsive]}
             cssStyle={[
               "featured-container-tab0",
@@ -137,8 +135,8 @@ const Home = () => {
             titlePresentation="Marvel - Catalogs all characters in one place."
             title="Marvel"
             date="Aout 2024 "
-            techno={["React", "responsive"]}
-            roles={["Ux Ui Design", "Dev front & back"]}
+            techno={["React", "Backend"]}
+            roles={["Ui Design", "Dev front & back"]}
             bgColor="#1A1B1D"
             txtColor="#ea3323"
             border="#ea3323"
