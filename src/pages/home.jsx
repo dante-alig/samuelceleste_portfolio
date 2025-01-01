@@ -11,7 +11,7 @@ import mockupKarine2 from "../images/mockupkarine2.mp4";
 import mockupMarvel from "../images/ipad2.png";
 import mockupMarvel2 from "../images/mockupmarvel2.mp4";
 import mockupLovely from "../images/mockup6.png";
-import mockupLovely2 from "../images/mockup7.png";
+import mockupLovely2 from "../images/mockuplovely2.png";
 import mokupYeni from "../images/mockup_yeni.png";
 import mokupYeni2 from "../images/mockupyeni1.png";
 import marvelm1 from "../images/mockupmarvel1.png";
