@@ -1,5 +1,5 @@
 import Header from "../components/header";
-import React, { useRef } from "react";
+import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import ProjectOverview from "../components/projectOverview";
 import mockupBelami from "../images/mockupbelami.png";
@@ -26,15 +26,14 @@ import mockupKarineResponsive from "../images/responsive/karine1.png";
 import mockupMarvelResponsive from "../images/responsive/marvel1.png";
 import mockupLovelyResponsive from "../images/responsive/lovely1.png";
 import mockupYeniResponsive from "../images/responsive/yeni1.png";
+import { Link } from "react-router-dom";
 
-const Home = () => {
-  const parallax = useRef(null);
-
+const Home = ({ parallaxRef }) => {
   return (
     <div className="container">
-      <Parallax ref={parallax} pages={6} style={{ top: "0", left: "0" }}>
+      <Parallax ref={parallaxRef} pages={6} style={{ top: "0", left: "0" }}>
         <ParallaxLayer offset={0} speed={0}>
-          <Header parallaxRef={parallax} />
+          <Header parallaxRef={parallaxRef} />
         </ParallaxLayer>
 
         <ParallaxLayer offset={0.999} speed={0.5}>
@@ -243,7 +242,13 @@ const Home = () => {
                   <h1>Nice to meet you,</h1>
                   <h1> Let’s connect.</h1>
                 </div>
-                <div className="bookACall">Book a call</div>
+                <Link
+                  to="https://calendly.com/samuelceleste/appel"
+                  target="_blank"
+                  className="bookACall"
+                >
+                  Book a call
+                </Link>
                 {/* <div className="mail">2025 Dante Design</div> */}
               </div>
             </div>

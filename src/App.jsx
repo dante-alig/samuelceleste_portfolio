@@ -4,14 +4,18 @@ import Home from "./pages/home";
 import Nav from "./components/nav";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import React, { useRef } from "react";
+
 library.add(faArrowUpRightFromSquare);
 
 function App() {
+  const parallax = useRef(null);
+
   return (
     <Router>
-      <Nav />
+      <Nav parallaxRef={parallax} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home parallaxRef={parallax} />} />
       </Routes>
     </Router>
   );

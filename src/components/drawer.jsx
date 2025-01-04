@@ -52,7 +52,7 @@ const Drawer = ({ isOpen, onClose }) => {
               <div className="drawer-contact">
                 <h3>Contact</h3>
                 <p>Email: samuel.celeste@gmail.com</p>
-                <p>LinkedIn: linkedin.com/in/yourprofile</p>
+                <p>LinkedIn: samuelceleste</p>
               </div>
             </div>
           </motion.div>
