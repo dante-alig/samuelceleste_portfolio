@@ -24,7 +24,9 @@ const Nav = ({ parallaxRef }) => {
 
       {/* ----- Navigation--------- */}
       <nav>
-        <div onClick={() => scrollToSection(0)} style={{ cursor: "pointer" }}>Work</div>
+        <div onClick={() => scrollToSection(0)} style={{ cursor: "pointer" }}>
+          Work
+        </div>
         <div
           onClick={() => setIsDrawerOpen(true)}
           style={{ cursor: "pointer" }}

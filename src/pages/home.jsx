@@ -116,11 +116,11 @@ const Home = ({ parallaxRef }) => {
             }}
             link={[
               {
-                url: "https://karineraspail.netlify.app/",
+                url: "https://psychogenealogie.netlify.app",
                 title: "Netlify",
               },
               {
-                url: "https://github.com/dante-alig/psychogenea.git",
+                url: "https://github.com/dante-alig/portfolio_therapeute.git",
                 title: "Github",
               },
             ]}
@@ -155,10 +155,13 @@ const Home = ({ parallaxRef }) => {
             }}
             link={[
               {
-                url: "https://www.figma.com/design/sOXpTDyout0PXphyu70Paa/Belami?node-id=0-1&t=l1V4DIsDR2gYxShT-1",
-                title: "Figma",
+                url: "https://marvelarchiv.netlify.app/",
+                title: "Netlify",
               },
-              { url: "https://github.com/", title: "Github" },
+              {
+                url: "https://github.com/dante-alig/portfolio_marvel",
+                title: "Github",
+              },
             ]}
           />
         </ParallaxLayer>
