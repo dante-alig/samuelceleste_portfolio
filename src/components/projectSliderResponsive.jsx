@@ -21,7 +21,7 @@ const ProjectSliderResponsive = ({ images, link, txtColor }) => {
         navigation
         pagination={{
           clickable: true,
-          type: "progressbar",
+          type: "bullets",
         }}
         autoplay={{
           delay: 6000,
