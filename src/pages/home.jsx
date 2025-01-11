@@ -32,6 +32,9 @@ import mockupMarvelResponsive3 from "../images/responsive/marvel3.png";
 import mockupMarvelResponsive4 from "../images/responsive/marvel4.png";
 import mockupMarvelResponsive5 from "../images/responsive/marvel5.png";
 import mockupLovelyResponsive from "../images/responsive/lovely1.png";
+import mockupLovelyResponsive2 from "../images/responsive/lovely2.png";
+import mockupLovelyResponsive3 from "../images/responsive/lovely3.png";
+import mockupLovelyResponsive4 from "../images/responsive/lovely4.png";
 import mockupYeniResponsive from "../images/responsive/yeni1.png";
 import { Link } from "react-router-dom";
 
@@ -203,7 +206,12 @@ const Home = ({ parallaxRef }) => {
             border="black"
             bgContainer="black"
             sliderImages={[lovely, mockupLovely2]}
-            sliderImagesResponsive={[mockupLovelyResponsive]}
+            sliderImagesResponsive={[
+              mockupLovelyResponsive,
+              mockupLovelyResponsive2,
+              mockupLovelyResponsive3,
+              mockupLovelyResponsive4,
+            ]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
