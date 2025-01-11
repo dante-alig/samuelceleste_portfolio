@@ -36,6 +36,9 @@ import mockupLovelyResponsive2 from "../images/responsive/lovely2.png";
 import mockupLovelyResponsive3 from "../images/responsive/lovely3.png";
 import mockupLovelyResponsive4 from "../images/responsive/lovely4.png";
 import mockupYeniResponsive from "../images/responsive/yeni1.png";
+import mockupYeniResponsive2 from "../images/responsive/yeni2.png";
+import mockupYeniResponsive3 from "../images/responsive/yeni3.png";
+import mockupYeniResponsive4 from "../images/responsive/yeni4.png";
 import { Link } from "react-router-dom";
 
 const Home = ({ parallaxRef }) => {
@@ -250,7 +253,12 @@ const Home = ({ parallaxRef }) => {
             border="white"
             bgContainer="#171616"
             sliderImages={[mokupYeni2, mokupYeni]}
-            sliderImagesResponsive={[mockupYeniResponsive]}
+            sliderImagesResponsive={[
+              mockupYeniResponsive,
+              mockupYeniResponsive2,
+              mockupYeniResponsive3,
+              mockupYeniResponsive4,
+            ]}
             cssStyle={[
               "featured-container",
               "featured-mokup",
