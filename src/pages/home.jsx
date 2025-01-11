@@ -94,7 +94,7 @@ const Home = ({ parallaxRef }) => {
             totalPages="05"
             titlePresentation="Karine Raspail - Therapist in psychogenealogy"
             title="Karine Raspail"
-            date="September 2024 - in progress"
+            date="September 2024"
             techno={["React", "responsive", "Typescript", "Frame Motion"]}
             roles={["Ui Design", "Dev front"]}
             bgColor="#E1EAE9"
@@ -134,7 +134,7 @@ const Home = ({ parallaxRef }) => {
             titlePresentation="Marvel - Catalogs all characters in one place."
             title="Marvel"
             date="Aout 2024 "
-            techno={["React", "Backend"]}
+            techno={["React", "Backend", "Express", "MongoDB"]}
             roles={["Ui Design", "Dev front & back"]}
             bgColor="#1A1B1D"
             txtColor="#ea3323"
@@ -193,10 +193,13 @@ const Home = ({ parallaxRef }) => {
             }}
             link={[
               {
-                url: "https://www.figma.com/design/sOXpTDyout0PXphyu70Paa/Belami?node-id=0-1&t=l1V4DIsDR2gYxShT-1",
-                title: "Figma",
+                url: "https://lovelyplace.netlify.app/",
+                title: "Netlify",
               },
-              { url: "https://github.com/", title: "Github" },
+              {
+                url: "https://github.com/dante-alig/portfolio_lovelyback.git",
+                title: "Github",
+              },
             ]}
           />
         </ParallaxLayer>
@@ -230,10 +233,9 @@ const Home = ({ parallaxRef }) => {
             }}
             link={[
               {
-                url: "https://www.figma.com/design/sOXpTDyout0PXphyu70Paa/Belami?node-id=0-1&t=l1V4DIsDR2gYxShT-1",
+                url: "https://www.figma.com/design/TwwCV3fv6cOZvVR4nsOBuN/Yeni?node-id=0-1&t=GQoo6kTx5E0nsWjH-1",
                 title: "Figma",
               },
-              { url: "https://github.com/", title: "Github" },
             ]}
           />
         </ParallaxLayer>

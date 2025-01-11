@@ -39,13 +39,11 @@ const Drawer = ({ isOpen, onClose }) => {
                   <h2>About Me</h2>
                 </div>
                 <p>
-                  I am a passionate graphic designer with 9 years of experience,
-                  now transitioning into full-stack development. My portfolio
-                  features personal projects I've fully designed and coded,
-                  combining my design expertise with new technical skills.
-                  Despite being a junior developer, my unique background and
-                  professional experience make me a valuable asset for your
-                  projects.
+                  I am a passionate graphic designer with more than 10 years of
+                  experience, now transitioning into full-stack development. My
+                  portfolio features personal projects I've fully designed and
+                  coded, combining my design expertise with new technical
+                  skills.
                 </p>
               </div>
 
