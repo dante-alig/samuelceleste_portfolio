@@ -24,7 +24,13 @@ import mockupBelamiResponsive4 from "../images/responsive/belami4.png";
 import mockupBelamiResponsive5 from "../images/responsive/belami5.png";
 import mockupKarineResponsive from "../images/responsive/karine1.png";
 import mockupKarineResponsive2 from "../images/responsive/karine3.png";
+import mockupKarineResponsive3 from "../images/responsive/karine4.png";
+import mockupKarineResponsive4 from "../images/responsive/karine5.png";
 import mockupMarvelResponsive from "../images/responsive/marvel1.png";
+import mockupMarvelResponsive2 from "../images/responsive/marvel2.png";
+import mockupMarvelResponsive3 from "../images/responsive/marvel3.png";
+import mockupMarvelResponsive4 from "../images/responsive/marvel4.png";
+import mockupMarvelResponsive5 from "../images/responsive/marvel5.png";
 import mockupLovelyResponsive from "../images/responsive/lovely1.png";
 import mockupYeniResponsive from "../images/responsive/yeni1.png";
 import { Link } from "react-router-dom";
@@ -106,6 +112,8 @@ const Home = ({ parallaxRef }) => {
             sliderImagesResponsive={[
               mockupKarineResponsive,
               mockupKarineResponsive2,
+              mockupKarineResponsive3,
+              mockupKarineResponsive4,
             ]}
             cssStyle={[
               "featured-container-tab0",
@@ -145,7 +153,13 @@ const Home = ({ parallaxRef }) => {
             border="#ea3323"
             bgContainer="black"
             sliderImages={[marvelm1, mockupMarvel2]}
-            sliderImagesResponsive={[mockupMarvelResponsive]}
+            sliderImagesResponsive={[
+              mockupMarvelResponsive,
+              mockupMarvelResponsive2,
+              mockupMarvelResponsive3,
+              mockupMarvelResponsive4,
+              mockupMarvelResponsive5,
+            ]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
