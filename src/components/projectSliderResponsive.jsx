@@ -1,9 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
@@ -15,14 +14,10 @@ const ProjectSliderResponsive = ({ images, link, txtColor }) => {
   return (
     <div className="project-slider-responsive-container">
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[Navigation, Autoplay]}
         spaceBetween={30}
         slidesPerView={1}
         navigation
-        pagination={{
-          clickable: true,
-          type: "bullets",
-        }}
         autoplay={{
           delay: 6000,
           disableOnInteraction: true,
