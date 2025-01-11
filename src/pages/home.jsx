@@ -23,6 +23,7 @@ import mockupBelamiResponsive3 from "../images/responsive/belami3.png";
 import mockupBelamiResponsive4 from "../images/responsive/belami4.png";
 import mockupBelamiResponsive5 from "../images/responsive/belami5.png";
 import mockupKarineResponsive from "../images/responsive/karine1.png";
+import mockupKarineResponsive2 from "../images/responsive/karine3.png";
 import mockupMarvelResponsive from "../images/responsive/marvel1.png";
 import mockupLovelyResponsive from "../images/responsive/lovely1.png";
 import mockupYeniResponsive from "../images/responsive/yeni1.png";
@@ -102,7 +103,10 @@ const Home = ({ parallaxRef }) => {
             border="black"
             bgContainer="#ffffff"
             sliderImages={[mockupKarine1, mockupKarine2]}
-            sliderImagesResponsive={[mockupKarineResponsive]}
+            sliderImagesResponsive={[
+              mockupKarineResponsive,
+              mockupKarineResponsive2,
+            ]}
             cssStyle={[
               "featured-container-tab0",
               "featured-mokup-tab1",
@@ -172,7 +176,13 @@ const Home = ({ parallaxRef }) => {
             titlePresentation="Lovely place - the best romantic spots in Paris to create unforgettable dates."
             title="Lovely place"
             date="Novembre 2024 - in progress "
-            techno={["Figma", "React", "Typescript", "Google Map API"]}
+            techno={[
+              "Figma",
+              "React",
+              "Typescript",
+              "Google Map API",
+              "MongoDB",
+            ]}
             roles={["Ux Ui Design", "Dev front & back"]}
             bgColor="#f5e6c7"
             txtColor="black"
