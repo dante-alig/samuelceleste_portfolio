@@ -203,7 +203,7 @@ const Home = ({ parallaxRef }) => {
               "Google Map API",
               "MongoDB",
             ]}
-            roles={["Ux Ui Design", "Dev front & back"]}
+            roles={["Ui Design", "Dev front & back"]}
             bgColor="#f5e6c7"
             txtColor="black"
             border="black"
