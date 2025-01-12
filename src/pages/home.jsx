@@ -228,7 +228,7 @@ const Home = ({ parallaxRef }) => {
             }}
             link={[
               {
-                url: "https://lovelyplace.netlify.app/",
+                url: "https://portfolio-lovelyplace.netlify.app/",
                 title: "Netlify",
               },
               {
