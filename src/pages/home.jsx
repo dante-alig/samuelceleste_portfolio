@@ -273,7 +273,7 @@ const Home = ({ parallaxRef }) => {
             }}
             link={[
               {
-                url: "https://www.figma.com/design/TwwCV3fv6cOZvVR4nsOBuN/Yeni?node-id=0-1&t=GQoo6kTx5E0nsWjH-1",
+                url: "",
                 title: "Figma",
               },
             ]}
